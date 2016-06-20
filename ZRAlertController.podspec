@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
     spec.name         = 'ZRAlertController'
     spec.version      = '1.0'
-    spec.license      = { :type => 'MIT' }
+    spec.license      = "MIT"
     spec.homepage     = 'https://github.com/VictorZhang2014/ZRAlertController'
     spec.author       = { "Victor Zhang" => "victorzhangq@gmail.com" }
     spec.summary      = 'UIAlertController provides alert view functions.'
