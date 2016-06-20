@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ti-SM-Iyu">
+                                <rect key="frame" x="80" y="170" width="440" height="40"/>
+                                <color key="backgroundColor" red="0.28858942869999998" green="0.79612531559999999" blue="0.006084900947" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="DPK-Fd-Jbt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="First style AlertView">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="firstButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C4y-9y-Mrg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REl-wZ-x23">
+                                <rect key="frame" x="80" y="270" width="440" height="40"/>
+                                <color key="backgroundColor" red="0.28858942869999998" green="0.79612531559999999" blue="0.006084900947" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="tFf-5J-8RL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Second style AlertView">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="SecondButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l0e-qc-YVV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFc-ef-bGs">
+                                <rect key="frame" x="80" y="370" width="440" height="40"/>
+                                <color key="backgroundColor" red="0.28858942869999998" green="0.79612531559999999" blue="0.006084900947" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="hFb-Ag-2x5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Third style AlertView">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ThirdButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e9W-ka-Iga"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oy-KP-PNM">
+                                <rect key="frame" x="80" y="471" width="440" height="40"/>
+                                <color key="backgroundColor" red="0.28858942869999998" green="0.79612531559999999" blue="0.006084900947" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6ws-JH-ez1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Fourth style AlertView">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fourthButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="clt-oc-xUq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="REl-wZ-x23" secondAttribute="trailing" constant="80" id="19y-KH-Swo"/>
+                            <constraint firstItem="AFc-ef-bGs" firstAttribute="top" secondItem="REl-wZ-x23" secondAttribute="bottom" constant="60" id="29o-kO-778"/>
+                            <constraint firstItem="5Ti-SM-Iyu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="150" id="5zW-go-Ktm"/>
+                            <constraint firstAttribute="trailing" secondItem="5Ti-SM-Iyu" secondAttribute="trailing" constant="80" id="AVS-Ny-nT9"/>
+                            <constraint firstItem="REl-wZ-x23" firstAttribute="top" secondItem="5Ti-SM-Iyu" secondAttribute="bottom" constant="60" id="C3E-3m-kfv"/>
+                            <constraint firstItem="5Ti-SM-Iyu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="80" id="HmR-Y6-1Ah"/>
+                            <constraint firstItem="0oy-KP-PNM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="80" id="JXq-O7-Jte"/>
+                            <constraint firstAttribute="trailing" secondItem="0oy-KP-PNM" secondAttribute="trailing" constant="80" id="TbY-Vt-dwm"/>
+                            <constraint firstItem="0oy-KP-PNM" firstAttribute="top" secondItem="AFc-ef-bGs" secondAttribute="bottom" constant="61" id="hzX-AF-JUM"/>
+                            <constraint firstItem="AFc-ef-bGs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="80" id="oUz-Xt-JEz"/>
+                            <constraint firstItem="REl-wZ-x23" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="80" id="xCB-nl-L7I"/>
+                            <constraint firstAttribute="trailing" secondItem="AFc-ef-bGs" secondAttribute="trailing" constant="80" id="zXS-SN-tLd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="296" y="229"/>
+        </scene>
+    </scenes>
+</document>

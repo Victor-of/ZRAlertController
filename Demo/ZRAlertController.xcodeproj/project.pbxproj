@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57B460291D140C6F00684022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B460281D140C6F00684022 /* main.m */; };
+		57B4602C1D140C6F00684022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B4602B1D140C6F00684022 /* AppDelegate.m */; };
+		57B460341D140C6F00684022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B460331D140C6F00684022 /* Assets.xcassets */; };
+		57B460371D140C6F00684022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B460351D140C6F00684022 /* LaunchScreen.storyboard */; };
+		57B460421D140C9B00684022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B4603F1D140C9B00684022 /* ViewController.m */; };
+		57B460431D140C9B00684022 /* ZRAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B460411D140C9B00684022 /* ZRAlertController.m */; };
+		57B460451D140CAC00684022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B460441D140CAC00684022 /* Main.storyboard */; };
+		57B460691D140DCC00684022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B460681D140DCC00684022 /* AppDelegate.swift */; };
+		57B4606B1D140DCC00684022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B4606A1D140DCC00684022 /* ViewController.swift */; };
+		57B4606E1D140DCC00684022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B4606C1D140DCC00684022 /* Main.storyboard */; };
+		57B460701D140DCC00684022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B4606F1D140DCC00684022 /* Assets.xcassets */; };
+		57B460731D140DCC00684022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B460711D140DCC00684022 /* LaunchScreen.storyboard */; };
+		57B460791D140F2B00684022 /* ZRAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B460781D140F2B00684022 /* ZRAlertController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57B460241D140C6F00684022 /* ZRAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B460281D140C6F00684022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57B4602A1D140C6F00684022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57B4602B1D140C6F00684022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57B460331D140C6F00684022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57B460361D140C6F00684022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57B460381D140C6F00684022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B4603E1D140C9B00684022 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57B4603F1D140C9B00684022 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57B460401D140C9B00684022 /* ZRAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRAlertController.h; sourceTree = "<group>"; };
+		57B460411D140C9B00684022 /* ZRAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRAlertController.m; sourceTree = "<group>"; };
+		57B460441D140CAC00684022 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		57B460661D140DCC00684022 /* ZRAlertController(Swift).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZRAlertController(Swift).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B460681D140DCC00684022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57B4606A1D140DCC00684022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57B4606D1D140DCC00684022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57B4606F1D140DCC00684022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57B460721D140DCC00684022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57B460741D140DCC00684022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B460781D140F2B00684022 /* ZRAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZRAlertController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57B460211D140C6F00684022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B460631D140DCC00684022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57B4601B1D140C6F00684022 = {
+			isa = PBXGroup;
+			children = (
+				57B460261D140C6F00684022 /* ZRAlertController */,
+				57B460671D140DCC00684022 /* ZRAlertController(Swift) */,
+				57B460251D140C6F00684022 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57B460251D140C6F00684022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57B460241D140C6F00684022 /* ZRAlertController.app */,
+				57B460661D140DCC00684022 /* ZRAlertController(Swift).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57B460261D140C6F00684022 /* ZRAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				57B460441D140CAC00684022 /* Main.storyboard */,
+				57B4603E1D140C9B00684022 /* ViewController.h */,
+				57B4603F1D140C9B00684022 /* ViewController.m */,
+				57B460401D140C9B00684022 /* ZRAlertController.h */,
+				57B460411D140C9B00684022 /* ZRAlertController.m */,
+				57B4602A1D140C6F00684022 /* AppDelegate.h */,
+				57B4602B1D140C6F00684022 /* AppDelegate.m */,
+				57B460331D140C6F00684022 /* Assets.xcassets */,
+				57B460351D140C6F00684022 /* LaunchScreen.storyboard */,
+				57B460381D140C6F00684022 /* Info.plist */,
+				57B460271D140C6F00684022 /* Supporting Files */,
+			);
+			path = ZRAlertController;
+			sourceTree = "<group>";
+		};
+		57B460271D140C6F00684022 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57B460281D140C6F00684022 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57B460671D140DCC00684022 /* ZRAlertController(Swift) */ = {
+			isa = PBXGroup;
+			children = (
+				57B460681D140DCC00684022 /* AppDelegate.swift */,
+				57B4606A1D140DCC00684022 /* ViewController.swift */,
+				57B460781D140F2B00684022 /* ZRAlertController.swift */,
+				57B4606C1D140DCC00684022 /* Main.storyboard */,
+				57B4606F1D140DCC00684022 /* Assets.xcassets */,
+				57B460711D140DCC00684022 /* LaunchScreen.storyboard */,
+				57B460741D140DCC00684022 /* Info.plist */,
+			);
+			path = "ZRAlertController(Swift)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57B460231D140C6F00684022 /* ZRAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B4603B1D140C6F00684022 /* Build configuration list for PBXNativeTarget "ZRAlertController" */;
+			buildPhases = (
+				57B460201D140C6F00684022 /* Sources */,
+				57B460211D140C6F00684022 /* Frameworks */,
+				57B460221D140C6F00684022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZRAlertController;
+			productName = ZRAlertController;
+			productReference = 57B460241D140C6F00684022 /* ZRAlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57B460651D140DCC00684022 /* ZRAlertController(Swift) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B460751D140DCC00684022 /* Build configuration list for PBXNativeTarget "ZRAlertController(Swift)" */;
+			buildPhases = (
+				57B460621D140DCC00684022 /* Sources */,
+				57B460631D140DCC00684022 /* Frameworks */,
+				57B460641D140DCC00684022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZRAlertController(Swift)";
+			productName = "ZRAlertController(Swift)";
+			productReference = 57B460661D140DCC00684022 /* ZRAlertController(Swift).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57B4601C1D140C6F00684022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = XiaoRuiGeGe;
+				TargetAttributes = {
+					57B460231D140C6F00684022 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					57B460651D140DCC00684022 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 57B4601F1D140C6F00684022 /* Build configuration list for PBXProject "ZRAlertController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57B4601B1D140C6F00684022;
+			productRefGroup = 57B460251D140C6F00684022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57B460231D140C6F00684022 /* ZRAlertController */,
+				57B460651D140DCC00684022 /* ZRAlertController(Swift) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57B460221D140C6F00684022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B460371D140C6F00684022 /* LaunchScreen.storyboard in Resources */,
+				57B460341D140C6F00684022 /* Assets.xcassets in Resources */,
+				57B460451D140CAC00684022 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B460641D140DCC00684022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B460731D140DCC00684022 /* LaunchScreen.storyboard in Resources */,
+				57B460701D140DCC00684022 /* Assets.xcassets in Resources */,
+				57B4606E1D140DCC00684022 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57B460201D140C6F00684022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B460421D140C9B00684022 /* ViewController.m in Sources */,
+				57B4602C1D140C6F00684022 /* AppDelegate.m in Sources */,
+				57B460431D140C9B00684022 /* ZRAlertController.m in Sources */,
+				57B460291D140C6F00684022 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B460621D140DCC00684022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B4606B1D140DCC00684022 /* ViewController.swift in Sources */,
+				57B460691D140DCC00684022 /* AppDelegate.swift in Sources */,
+				57B460791D140F2B00684022 /* ZRAlertController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57B460351D140C6F00684022 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B460361D140C6F00684022 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		57B4606C1D140DCC00684022 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B4606D1D140DCC00684022 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57B460711D140DCC00684022 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B460721D140DCC00684022 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57B460391D140C6F00684022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57B4603A1D140C6F00684022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57B4603C1D140C6F00684022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZRAlertController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoruigege.ZRAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57B4603D1D140C6F00684022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZRAlertController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoruigege.ZRAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57B460761D140DCC00684022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ZRAlertController(Swift)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoruigege.ZRAlertController-Swift-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57B460771D140DCC00684022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ZRAlertController(Swift)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoruigege.ZRAlertController-Swift-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57B4601F1D140C6F00684022 /* Build configuration list for PBXProject "ZRAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B460391D140C6F00684022 /* Debug */,
+				57B4603A1D140C6F00684022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B4603B1D140C6F00684022 /* Build configuration list for PBXNativeTarget "ZRAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B4603C1D140C6F00684022 /* Debug */,
+				57B4603D1D140C6F00684022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57B460751D140DCC00684022 /* Build configuration list for PBXNativeTarget "ZRAlertController(Swift)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B460761D140DCC00684022 /* Debug */,
+				57B460771D140DCC00684022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57B4601C1D140C6F00684022 /* Project object */;
+}
