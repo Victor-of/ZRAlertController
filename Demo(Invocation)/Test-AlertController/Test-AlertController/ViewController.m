@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [[ZRAlertController defaultAlert] alertShow:self title:@"" message:@"" okayButton:@""];
+  
 }
 
 @end

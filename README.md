@@ -6,7 +6,7 @@ How to install and get Started with CocoaPods
 
 `platform :ios, '7.0'  
 
-pod 'ZRAlertController', '~> 1.0'`
+pod 'ZRAlertController', '~> 2.0'`
 
 
 ## Usage of first style
@@ -48,3 +48,16 @@ NSLog(@"Your input of Abolish textFiled1.text = %@, textFiled2.text = %@. ", tex
 
 ### Effect Photo
 ![ZRAlertController Effect Photo 4](https://github.com/VictorZhang2014/ZRAlertController/blob/master/four.png "ZRAlertController")
+
+## Usage of first style action sheet
+
+`[[ZRAlertController defaultAlert] actionView:self title:nil cancel:@"cancel" others:@[@"aaa",@"bbb",@"ccc"] handler:^(int index, NSString * _Nonnull item) {
+NSLog(@"index = %d, item = %@. ", index, item);
+}];`
+
+### Effect Photo
+![ZRAlertController Effect Photo 1](https://github.com/VictorZhang2014/ZRAlertController/blob/master/five.png "ZRAlertController")
+
+
+
+
