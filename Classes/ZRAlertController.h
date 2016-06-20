@@ -13,6 +13,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+
+NS_ASSUME_NONNULL_BEGIN
+
 typedef NS_ENUM(NSInteger){
     ZRAlertStylePlainTextInput,
     ZRAlertStyleSecureTextInput,
@@ -23,11 +26,16 @@ typedef NS_ENUM(NSInteger){
 typedef void(^AlertBlock)(void);
 typedef void(^AlertBlock1)(UITextField *textFiled);
 typedef void(^AlertBlock2)(UITextField *textFiled1, UITextField *textFiled2);
+typedef void(^ActionBlock)(int index, NSString *item);
 
 @interface ZRAlertController : NSObject
 
 + (instancetype)defaultAlert;
 
+
+/*
+ * Alert View
+ **/
 - (void)alertShow:(UIViewController *)controller title:(NSString *)title message:(NSString *)message okayButton:(NSString *)okay;
 
 - (void)alertShow:(UIViewController *)controller title:(NSString *)title message:(NSString *)message cancelButton:(NSString *)cancel okayButton:(NSString *)okay okayHandler:(AlertBlock)okayHandler cancelHandler:(AlertBlock)cancelHandler;
@@ -36,4 +44,16 @@ typedef void(^AlertBlock2)(UITextField *textFiled1, UITextField *textFiled2);
 
 - (void)alertShow:(UIViewController *)controller title:(NSString *)title message:(NSString *)message cancelButton:(NSString *)cancel okayButton:(NSString *)okay alertStyle:(ZRAlertStyle)style placeHolder1:(NSString *)placeHolder1 placeHolder2:(NSString *)placeHolder2 sureHandler:(AlertBlock2)okayHandler abolishHandler:(AlertBlock2)cancelHandler;
 
+
+/*
+ * Action Sheet
+ **/
+- (void)actionView:(UIViewController *)viewController title:(NSString * _Nullable)title cancel:(NSString *)cancel others:(NSArray *)others handler:(ActionBlock)handler;
+
+
 @end
+
+NS_ASSUME_NONNULL_END
+
+
+

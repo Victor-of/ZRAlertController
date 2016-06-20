@@ -5,7 +5,7 @@
 //  Created by Victor John on 4/28/16.
 //  Copyright © 2016 com.xiaoruigege. All rights reserved.
 //
-//  https://github.com/VictorZhang2014/AlertView-Demo-for-iOS
+//  https://github.com/VictorZhang2014/ZRAlertController
 //  An open source library for iOS in Objective-C that is being compatible with iOS 7.0 and later.
 //  Its main function that wrapped UIAlertView and UIAlertController that are easier to call.
 //
@@ -18,6 +18,7 @@
 - (IBAction)SecondButton:(id)sender;
 - (IBAction)ThirdButton:(id)sender;
 - (IBAction)fourthButton:(id)sender;
+- (IBAction)firstActionSheet:(id)sender;
  
 @end
 
@@ -56,6 +57,13 @@
         NSLog(@"Your input of Sure textFiled1.text = %@, textFiled2.text = %@. ", textFiled1.text, textFiled2.text);
     } abolishHandler:^(UITextField *textFiled1, UITextField *textFiled2) {
          NSLog(@"Your input of Abolish textFiled1.text = %@, textFiled2.text = %@. ", textFiled1.text, textFiled2.text);
+    }];
+}
+
+- (IBAction)firstActionSheet:(id)sender {
+    
+    [[ZRAlertController defaultAlert] actionView:self title:nil cancel:@"cancel" others:@[@"aaa",@"bbb",@"ccc"] handler:^(int index, NSString * _Nonnull item) {
+        NSLog(@"index = %d, item = %@. ", index, item);
     }];
 }
 @end

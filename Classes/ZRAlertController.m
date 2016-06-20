@@ -23,13 +23,15 @@ static AlertBlock1 cancelBlock1;
 static AlertBlock2 okayBlock2;
 static AlertBlock2 cancelBlock2;
 
+static ActionBlock actionBlockHandler;
+
 typedef NS_ENUM(NSInteger){
     ZRAlertMethodStyleDefault,
     ZRAlertMethodStyleOneInput,
     ZRAlertMethodStyleTwoInput
 }ZRAlertMethodStyle;
 
-@interface ZRDelegateController : UIViewController<UIAlertViewDelegate>
+@interface ZRDelegateController : UIViewController<UIAlertViewDelegate,UIActionSheetDelegate>
 @property (nonatomic, assign) ZRAlertMethodStyle methodStyle;
 @end
 
@@ -73,6 +75,15 @@ typedef NS_ENUM(NSInteger){
                 break;
         }
 
+    }
+}
+
+
+#pragma mark - UIActionSheetDelegate
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (actionBlockHandler) {
+        actionBlockHandler((int)buttonIndex, [actionSheet buttonTitleAtIndex:buttonIndex]);
     }
 }
 
@@ -247,5 +258,39 @@ typedef NS_ENUM(NSInteger){
     }
 }
 
+
+/*
+ * Action Sheet
+ **/
+- (void)actionView:(UIViewController *)viewController title:( NSString * _Nullable)title cancel:(NSString *)cancel others:(NSArray *)others handler:(ActionBlock)handler
+{
+    if (kiOS8) {
+        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+        for (int i = 0; i < others.count; i++) {
+            UIAlertAction *action = [UIAlertAction actionWithTitle:others[i] style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                if (handler) {
+                    handler(i + 1, others[i]);
+                }
+            }];
+            [alertController addAction:action];
+        }
+        if (cancel.length) {
+            UIAlertAction *actionCancel = [UIAlertAction actionWithTitle:cancel style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+                if (handler) {
+                    handler(0, cancel);
+                }
+            }];
+            [alertController addAction:actionCancel];
+        }
+        [viewController presentViewController:alertController animated:YES completion:nil];
+    } else {
+        actionBlockHandler = handler;
+        UIActionSheet *action = [[UIActionSheet alloc] initWithTitle:title delegate:self.delegateController cancelButtonTitle:cancel destructiveButtonTitle:nil otherButtonTitles:nil, nil];
+        for (NSString *item in others) {
+            [action addButtonWithTitle:item];
+        }
+        [action showInView:viewController.view];
+    }
+}
 
 @end
