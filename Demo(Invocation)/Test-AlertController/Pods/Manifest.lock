@@ -1,0 +1,12 @@
+PODS:
+  - ZRAlertController (1.0)
+
+DEPENDENCIES:
+  - ZRAlertController (~> 1.0)
+
+SPEC CHECKSUMS:
+  ZRAlertController: 2c7cf10f1204b97ef16db98905c532906c46226f
+
+PODFILE CHECKSUM: 69cb767a3f4d187b462a46ecf68022a7770696a1
+
+COCOAPODS: 1.0.0

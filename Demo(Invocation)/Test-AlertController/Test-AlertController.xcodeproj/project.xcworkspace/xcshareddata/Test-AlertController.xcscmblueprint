@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DACEB6D13EC1EF678DA16F1FC082B6FFB3CB9D94",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DACEB6D13EC1EF678DA16F1FC082B6FFB3CB9D94" : 0,
+    "C6384DFE5314551D4424D18DF6F7CE74678188DA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "55648A32-6AD1-46E0-A732-18C06549DC5D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DACEB6D13EC1EF678DA16F1FC082B6FFB3CB9D94" : "ZRAlertController\/",
+    "C6384DFE5314551D4424D18DF6F7CE74678188DA" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Test-AlertController",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Demo(Invocation)\/Test-AlertController\/Test-AlertController.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/VictorZhang2014\/ZRAlertController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C6384DFE5314551D4424D18DF6F7CE74678188DA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/VictorZhang2014\/ZRAlertController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DACEB6D13EC1EF678DA16F1FC082B6FFB3CB9D94"
+    }
+  ]
+}
