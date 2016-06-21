@@ -6,7 +6,7 @@ How to install and get Started with CocoaPods
 
 `platform :ios, '7.0'  
 
-pod 'ZRAlertController', '~> 2.0'`
+pod 'ZRAlertController', '~> 2.1'`
 
 
 ## Usage of first style
