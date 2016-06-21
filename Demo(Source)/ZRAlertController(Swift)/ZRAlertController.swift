@@ -17,6 +17,8 @@ typealias VoidClosure = (Void) -> Void
 typealias VoidOneParamClosure = (textField:UITextField) -> Void
 typealias VoidTwoParamClosure = (textField1:UITextField, textField2:UITextField) -> Void
 
+var completionClosure : VoidClosure? = nil
+
 var defaultClosure : VoidClosure? = nil
 var cancelClosure : VoidClosure? = nil
 
@@ -27,6 +29,7 @@ var defaultClosure2 : VoidTwoParamClosure? = nil
 var cancelClosure2 : VoidTwoParamClosure? = nil
 
 private enum ZRAlertType {
+    case Completion
     case Default
     case OneTextInput
     case TwoTextInput
@@ -51,14 +54,18 @@ public class ZRAlertController {
         return defaultInstance!;
     }
     
-    func alertShow(controller:UIViewController, title:String, message:String, okayButton:String) -> Void {
+    func alertShow(controller:UIViewController, title:String, message:String, okayButton:String, completion:VoidClosure) -> Void {
+        completionClosure = completion
         if #available(iOS 8.0, *) {
             let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert)
-            let action = UIAlertAction(title: okayButton, style: UIAlertActionStyle.Default, handler: nil)
+            let action = UIAlertAction(title: okayButton, style: UIAlertActionStyle.Default, handler: { (alertAction) in
+                completion()
+            })
             alert.addAction(action)
             controller.presentViewController(alert, animated: true, completion: nil)
         } else {
-            let alert = UIAlertView(title: title, message: message, delegate: nil, cancelButtonTitle: okayButton)
+            self.delegateController.alertType = .Completion
+            let alert = UIAlertView(title: title, message: message, delegate: self.delegateController, cancelButtonTitle: okayButton)
             alert.show()
         }
     }
@@ -169,10 +176,13 @@ private class ZRDelegateController : UIViewController, UIAlertViewDelegate{
                 defaultClosure1!(textField: alertView.textFieldAtIndex(0)!)
             case .TwoTextInput:
                 defaultClosure2!(textField1: alertView.textFieldAtIndex(0)!, textField2: alertView.textFieldAtIndex(1)!)
+            default:break
             }
             
         } else {
             switch alertType! {
+            case .Completion:
+                completionClosure!()
             case .Default:
                 cancelClosure!()
             case .OneTextInput:

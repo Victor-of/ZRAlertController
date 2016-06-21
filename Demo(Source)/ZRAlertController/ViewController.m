@@ -26,13 +26,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
 }
 
 - (IBAction)firstButton:(id)sender
 {
-    [[ZRAlertController defaultAlert] alertShow:self title:@"Note" message:@"This is an empty message!" okayButton:@"Ok"];
-} 
+    [[ZRAlertController defaultAlert] alertShow:self title:@"Note" message:@"This is an empty message!" okayButton:@"Ok" completion:^{
+        NSLog(@"There is a callback.");
+    }];
+}
 
 - (IBAction)SecondButton:(id)sender
 {

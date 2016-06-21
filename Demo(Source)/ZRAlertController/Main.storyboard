@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LEn-lQ-frk">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="sRh-sX-diD">
+            <objects>
+                <navigationController id="LEn-lQ-frk" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HgB-7l-p3t">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Cas-tt-wCE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g42-YU-fN0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-488" y="229"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -17,7 +33,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ti-SM-Iyu">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ti-SM-Iyu">
                                 <rect key="frame" x="80" y="170" width="440" height="40"/>
                                 <color key="backgroundColor" red="0.28858942869999998" green="0.79612531559999999" blue="0.006084900947" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -31,7 +47,7 @@
                                     <action selector="firstButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C4y-9y-Mrg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REl-wZ-x23">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REl-wZ-x23">
                                 <rect key="frame" x="80" y="240" width="440" height="40"/>
                                 <color key="backgroundColor" red="0.28858942869999998" green="0.79612531559999999" blue="0.006084900947" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -45,7 +61,7 @@
                                     <action selector="SecondButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l0e-qc-YVV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFc-ef-bGs">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFc-ef-bGs">
                                 <rect key="frame" x="80" y="310" width="440" height="40"/>
                                 <color key="backgroundColor" red="0.28858942869999998" green="0.79612531559999999" blue="0.006084900947" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -59,7 +75,7 @@
                                     <action selector="ThirdButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e9W-ka-Iga"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oy-KP-PNM">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oy-KP-PNM">
                                 <rect key="frame" x="80" y="380" width="440" height="40"/>
                                 <color key="backgroundColor" red="0.28858942869999998" green="0.79612531559999999" blue="0.006084900947" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -73,7 +89,7 @@
                                     <action selector="fourthButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="clt-oc-xUq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYe-6n-2ho">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYe-6n-2ho">
                                 <rect key="frame" x="80" y="450" width="440" height="40"/>
                                 <color key="backgroundColor" red="0.28858942869999998" green="0.79612531559999999" blue="0.006084900947" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -107,6 +123,7 @@
                             <constraint firstAttribute="trailing" secondItem="AFc-ef-bGs" secondAttribute="trailing" constant="80" id="zXS-SN-tLd"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="nQw-hd-8Ja"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

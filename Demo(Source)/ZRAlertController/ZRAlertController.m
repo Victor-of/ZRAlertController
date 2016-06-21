@@ -14,6 +14,8 @@
 
 #define kiOS8 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
 
+static AlertBlock completionBlock;
+
 static AlertBlock okayBlock;
 static AlertBlock cancelBlock;
 
@@ -26,6 +28,7 @@ static AlertBlock2 cancelBlock2;
 static ActionBlock actionBlockHandler;
 
 typedef NS_ENUM(NSInteger){
+    ZRAlertMethodStyleCompletion,
     ZRAlertMethodStyleDefault,
     ZRAlertMethodStyleOneInput,
     ZRAlertMethodStyleTwoInput
@@ -59,6 +62,10 @@ typedef NS_ENUM(NSInteger){
         }
     } else {
         switch (self.methodStyle) {
+            case ZRAlertMethodStyleCompletion:
+                if (completionBlock)  
+                    completionBlock();
+                break;
             case ZRAlertMethodStyleDefault:
                 if (cancelBlock)
                     cancelBlock();
@@ -116,18 +123,23 @@ typedef NS_ENUM(NSInteger){
     return _delegateController;
 }
 
-- (void)alertShow:(UIViewController *)controller title:(NSString *)title message:(NSString *)message okayButton:(NSString *)okay
+- (void)alertShow:(UIViewController *)controller title:(NSString *)title message:(NSString *)message okayButton:(NSString *)okay completion:(nonnull void (^)())completion
 {
+    completionBlock = completion;
     if (kiOS8) {
         
         UIAlertController *alertC = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
-        UIAlertAction *action = [UIAlertAction actionWithTitle:okay style:UIAlertActionStyleDefault handler:nil];
+        UIAlertAction *action = [UIAlertAction actionWithTitle:okay style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            if (completion) {
+                completion();
+            }
+        }];
         [alertC addAction:action];
         [controller presentViewController:alertC animated:YES completion:nil];
         
     } else {
-        
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:message delegate:nil cancelButtonTitle:nil otherButtonTitles:okay, nil];
+        self.delegateController.methodStyle = ZRAlertMethodStyleCompletion;
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:message delegate:self.delegateController cancelButtonTitle:nil otherButtonTitles:okay, nil];
         [alert show];
     }
 }

@@ -420,6 +420,7 @@
 				57B4603D1D140C6F00684022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57B460751D140DCC00684022 /* Build configuration list for PBXNativeTarget "ZRAlertController(Swift)" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +429,7 @@
 				57B460771D140DCC00684022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

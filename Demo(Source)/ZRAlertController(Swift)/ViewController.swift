@@ -20,7 +20,9 @@ class ViewController: UIViewController {
     
     
     @IBAction func firstButton(sender: AnyObject) {
-        ZRAlertController.defaultAlert().alertShow(self, title: "Note", message: "This is an empty message!", okayButton: "Ok");
+        ZRAlertController.defaultAlert().alertShow(self, title: "Note", message: "This is an empty message!", okayButton: "Ok") { () in
+            print("This is an call back.")
+        };
     }
     
     @IBAction func secondButton(sender: AnyObject) {
