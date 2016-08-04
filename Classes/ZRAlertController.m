@@ -123,7 +123,7 @@ typedef NS_ENUM(NSInteger){
     return _delegateController;
 }
 
-- (void)alertShow:(UIViewController *)controller title:(NSString *)title message:(NSString *)message okayButton:(NSString *)okay completion:(nonnull void (^)())completion
+- (void)alertShow:(UIViewController *)controller title:(NSString *)title message:(NSString *)message okayButton:(NSString *)okay completion:(void (^)())completion
 {
     completionBlock = completion;
     if (kiOS8) {
