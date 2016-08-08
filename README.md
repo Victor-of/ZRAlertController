@@ -6,7 +6,7 @@ How to install and get Started with CocoaPods
 
 `platform :ios, '7.0'  
 
-pod 'ZRAlertController', '~> 2.1'`
+pod 'ZRAlertController', '~> 2.2'`
 
 
 ## Usage of first style
@@ -18,22 +18,26 @@ pod 'ZRAlertController', '~> 2.1'`
 
 ## Usage of second style
 
-`[[ZRAlertController defaultAlert] alertShow:self title:@"Note" message:@"This is an empty message!" cancelButton:@"Cancel" okayButton:@"Ok" okayHandler:^{
-NSLog(@"You clicked the okay button.");
+```
+[[ZRAlertController defaultAlert] alertShow:self title:@"Note" message:@"This is an empty message!" cancelButton:@"Cancel" okayButton:@"Ok" okayHandler:^{
+    NSLog(@"You clicked the okay button.");
 } cancelHandler:^{
-NSLog(@"You clicked the cancel button.");
-}];`
+    NSLog(@"You clicked the cancel button.");
+}];
+```
 
 ### Effect Photo
 ![ZRAlertController Effect Photo 2](https://github.com/VictorZhang2014/ZRAlertController/blob/master/two.png "ZRAlertController")
 
 ## Usage of third style
 
-`[[ZRAlertController defaultAlert] alertShow:self title:@"Note" message:@"This is an explanation message!" cancelButton:@"Cancel" okayButton:@"Okay" alertStyle:ZRAlertStyleSecureTextInput placeHolder:@"Type any character" okayHandler:^(UITextField *textFiled) {
-NSLog(@"Your input of textFiled is %@.", textFiled.text);
+```
+[[ZRAlertController defaultAlert] alertShow:self title:@"Note" message:@"This is an explanation message!" cancelButton:@"Cancel" okayButton:@"Okay" alertStyle:ZRAlertStyleSecureTextInput placeHolder:@"Type any character" okayHandler:^(UITextField *textFiled) {
+    NSLog(@"Your input of textFiled is %@.", textFiled.text);
 } cancelHandler:^(UITextField *textFiled) {
-NSLog(@"Your input of textFiled is %@.", textFiled.text);
-}];`
+    NSLog(@"Your input of textFiled is %@.", textFiled.text);
+}];
+```
 
 ### Effect Photo
 ![ZRAlertController Effect Photo 3](https://github.com/VictorZhang2014/ZRAlertController/blob/master/three.png "ZRAlertController")

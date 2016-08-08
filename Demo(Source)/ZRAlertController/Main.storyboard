@@ -96,7 +96,7 @@
                                     <constraint firstAttribute="height" constant="40" id="rBI-zZ-lMm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="First Style Action Sheet">
+                                <state key="normal" title="Five Style Action Sheet">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
