@@ -45,6 +45,7 @@ typedef void(^ActionBlock)(int index, NSString *item);
 - (void)alertShow:(UIViewController *)controller title:(NSString * _Nullable)title message:(NSString *)message cancelButton:(NSString *)cancel okayButton:(NSString *)okay alertStyle:(ZRAlertStyle)style placeHolder1:(NSString *)placeHolder1 placeHolder2:(NSString *)placeHolder2 sureHandler:(AlertBlock2)okayHandler abolishHandler:(AlertBlock2)cancelHandler;
 
 
+
 /*
  * Action Sheet
  **/
