@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57B6E9221D17F9B20096BED3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6E9211D17F9B20096BED3 /* main.m */; };
+		57B6E9251D17F9B20096BED3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6E9241D17F9B20096BED3 /* AppDelegate.m */; };
+		57B6E9281D17F9B20096BED3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6E9271D17F9B20096BED3 /* ViewController.m */; };
+		57B6E92B1D17F9B20096BED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B6E9291D17F9B20096BED3 /* Main.storyboard */; };
+		57B6E92D1D17F9B20096BED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B6E92C1D17F9B20096BED3 /* Assets.xcassets */; };
+		57B6E9301D17F9B20096BED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B6E92E1D17F9B20096BED3 /* LaunchScreen.storyboard */; };
+		6476A8CC8D7BE5E1CB024FB6 /* libPods-Test-AlertController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCA1A73FAA485A4663221E0 /* libPods-Test-AlertController.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04C85C86886E332B2F55B9BF /* Pods-Test-AlertController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-AlertController.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test-AlertController/Pods-Test-AlertController.release.xcconfig"; sourceTree = "<group>"; };
+		57B6E91D1D17F9B20096BED3 /* Test-AlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test-AlertController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B6E9211D17F9B20096BED3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57B6E9231D17F9B20096BED3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57B6E9241D17F9B20096BED3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57B6E9261D17F9B20096BED3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57B6E9271D17F9B20096BED3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57B6E92A1D17F9B20096BED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57B6E92C1D17F9B20096BED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57B6E92F1D17F9B20096BED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57B6E9311D17F9B20096BED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCA1A73FAA485A4663221E0 /* libPods-Test-AlertController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test-AlertController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1B63D7F2568E56169E2C1A /* Pods-Test-AlertController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-AlertController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test-AlertController/Pods-Test-AlertController.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57B6E91A1D17F9B20096BED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6476A8CC8D7BE5E1CB024FB6 /* libPods-Test-AlertController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B75245262EC00A4535E264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA1A73FAA485A4663221E0 /* libPods-Test-AlertController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57B6E9141D17F9B20096BED3 = {
+			isa = PBXGroup;
+			children = (
+				57B6E91F1D17F9B20096BED3 /* Test-AlertController */,
+				57B6E91E1D17F9B20096BED3 /* Products */,
+				B9DEC57D7390B1E4097E1835 /* Pods */,
+				02B75245262EC00A4535E264 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57B6E91E1D17F9B20096BED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57B6E91D1D17F9B20096BED3 /* Test-AlertController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57B6E91F1D17F9B20096BED3 /* Test-AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				57B6E9231D17F9B20096BED3 /* AppDelegate.h */,
+				57B6E9241D17F9B20096BED3 /* AppDelegate.m */,
+				57B6E9261D17F9B20096BED3 /* ViewController.h */,
+				57B6E9271D17F9B20096BED3 /* ViewController.m */,
+				57B6E9291D17F9B20096BED3 /* Main.storyboard */,
+				57B6E92C1D17F9B20096BED3 /* Assets.xcassets */,
+				57B6E92E1D17F9B20096BED3 /* LaunchScreen.storyboard */,
+				57B6E9311D17F9B20096BED3 /* Info.plist */,
+				57B6E9201D17F9B20096BED3 /* Supporting Files */,
+			);
+			path = "Test-AlertController";
+			sourceTree = "<group>";
+		};
+		57B6E9201D17F9B20096BED3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57B6E9211D17F9B20096BED3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9DEC57D7390B1E4097E1835 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB1B63D7F2568E56169E2C1A /* Pods-Test-AlertController.debug.xcconfig */,
+				04C85C86886E332B2F55B9BF /* Pods-Test-AlertController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57B6E91C1D17F9B20096BED3 /* Test-AlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B6E9341D17F9B20096BED3 /* Build configuration list for PBXNativeTarget "Test-AlertController" */;
+			buildPhases = (
+				04DE29CAF39F2FB43D4F187E /* 📦 Check Pods Manifest.lock */,
+				57B6E9191D17F9B20096BED3 /* Sources */,
+				57B6E91A1D17F9B20096BED3 /* Frameworks */,
+				57B6E91B1D17F9B20096BED3 /* Resources */,
+				339F93004DCCF41BC33A9068 /* 📦 Embed Pods Frameworks */,
+				741868D42622D2ED3809E4BB /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test-AlertController";
+			productName = "Test-AlertController";
+			productReference = 57B6E91D1D17F9B20096BED3 /* Test-AlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57B6E9151D17F9B20096BED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = XiaoRuiGeGe;
+				TargetAttributes = {
+					57B6E91C1D17F9B20096BED3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 57B6E9181D17F9B20096BED3 /* Build configuration list for PBXProject "Test-AlertController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57B6E9141D17F9B20096BED3;
+			productRefGroup = 57B6E91E1D17F9B20096BED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57B6E91C1D17F9B20096BED3 /* Test-AlertController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57B6E91B1D17F9B20096BED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B6E9301D17F9B20096BED3 /* LaunchScreen.storyboard in Resources */,
+				57B6E92D1D17F9B20096BED3 /* Assets.xcassets in Resources */,
+				57B6E92B1D17F9B20096BED3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04DE29CAF39F2FB43D4F187E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		339F93004DCCF41BC33A9068 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test-AlertController/Pods-Test-AlertController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		741868D42622D2ED3809E4BB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test-AlertController/Pods-Test-AlertController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57B6E9191D17F9B20096BED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B6E9281D17F9B20096BED3 /* ViewController.m in Sources */,
+				57B6E9251D17F9B20096BED3 /* AppDelegate.m in Sources */,
+				57B6E9221D17F9B20096BED3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57B6E9291D17F9B20096BED3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B6E92A1D17F9B20096BED3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57B6E92E1D17F9B20096BED3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B6E92F1D17F9B20096BED3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57B6E9321D17F9B20096BED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57B6E9331D17F9B20096BED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57B6E9351D17F9B20096BED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB1B63D7F2568E56169E2C1A /* Pods-Test-AlertController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Test-AlertController/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoruigege.Test-AlertController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57B6E9361D17F9B20096BED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C85C86886E332B2F55B9BF /* Pods-Test-AlertController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Test-AlertController/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoruigege.Test-AlertController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57B6E9181D17F9B20096BED3 /* Build configuration list for PBXProject "Test-AlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B6E9321D17F9B20096BED3 /* Debug */,
+				57B6E9331D17F9B20096BED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B6E9341D17F9B20096BED3 /* Build configuration list for PBXNativeTarget "Test-AlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B6E9351D17F9B20096BED3 /* Debug */,
+				57B6E9361D17F9B20096BED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57B6E9151D17F9B20096BED3 /* Project object */;
+}
