@@ -15,7 +15,7 @@ pod 'ZRAlertController', '~> 2.2'`
 `[[ZRAlertController defaultAlert] alertShowWithTitle:@"Note" message:@"This is an empty message!" okayButton:@"Ok"];`
 
 ### Effect Photo
-![ZRAlertController Effect Photo 1](https://github.com/VictorZhang2014/ZRAlertController/blob/master/one.png "ZRAlertController")
+![ZRAlertController Effect Photo 1](https://github.com/VictorZhang2014/ZRAlertController/blob/master/screenshots/one.png "ZRAlertController")
 
 ## Usage of second style
 
@@ -28,7 +28,7 @@ pod 'ZRAlertController', '~> 2.2'`
 ```
 
 ### Effect Photo
-![ZRAlertController Effect Photo 2](https://github.com/VictorZhang2014/ZRAlertController/blob/master/two.png "ZRAlertController")
+![ZRAlertController Effect Photo 2](https://github.com/VictorZhang2014/ZRAlertController/blob/master/screenshots/two.png "ZRAlertController")
 
 ## Usage of third style
 
@@ -41,7 +41,7 @@ pod 'ZRAlertController', '~> 2.2'`
 ```
 
 ### Effect Photo
-![ZRAlertController Effect Photo 3](https://github.com/VictorZhang2014/ZRAlertController/blob/master/three.png "ZRAlertController")
+![ZRAlertController Effect Photo 3](https://github.com/VictorZhang2014/ZRAlertController/blob/master/screenshots/three.png "ZRAlertController")
 
 ## Usage of fourth style
 
@@ -60,7 +60,7 @@ pod 'ZRAlertController', '~> 2.2'`
 ```
 
 ### Effect Photo
-![ZRAlertController Effect Photo 4](https://github.com/VictorZhang2014/ZRAlertController/blob/master/four.png "ZRAlertController")
+![ZRAlertController Effect Photo 4](https://github.com/VictorZhang2014/ZRAlertController/blob/master/screenshots/four.png "ZRAlertController")
 
 ## Usage of first style action sheet
 
@@ -71,7 +71,7 @@ pod 'ZRAlertController', '~> 2.2'`
 ```
 
 ### Effect Photo
-![ZRAlertController Effect Photo 1](https://github.com/VictorZhang2014/ZRAlertController/blob/master/five.png "ZRAlertController")
+![ZRAlertController Effect Photo 1](https://github.com/VictorZhang2014/ZRAlertController/blob/master/screenshots/five.png "ZRAlertController")
 
 
 
