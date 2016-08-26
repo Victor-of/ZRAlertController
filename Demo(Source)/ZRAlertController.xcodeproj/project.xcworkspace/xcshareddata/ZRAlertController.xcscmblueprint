@@ -1,9 +1,14 @@
 {
+<<<<<<< HEAD
   "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "248B4936B00367BD0EF92085DFA5EA810BB7F585",
+=======
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DACEB6D13EC1EF678DA16F1FC082B6FFB3CB9D94",
+>>>>>>> 552c40cf331cc137ace1fbcd7270507beba825c7
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+<<<<<<< HEAD
     "C6384DFE5314551D4424D18DF6F7CE74678188DA" : 0,
     "248B4936B00367BD0EF92085DFA5EA810BB7F585" : 0
   },
@@ -11,6 +16,15 @@
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "C6384DFE5314551D4424D18DF6F7CE74678188DA" : "..",
     "248B4936B00367BD0EF92085DFA5EA810BB7F585" : "ZRAlertController\/"
+=======
+    "DACEB6D13EC1EF678DA16F1FC082B6FFB3CB9D94" : 0,
+    "C6384DFE5314551D4424D18DF6F7CE74678188DA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "661F2865-1F62-4B2D-B7D1-0EDC6EB92189",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DACEB6D13EC1EF678DA16F1FC082B6FFB3CB9D94" : "ZRAlertController\/",
+    "C6384DFE5314551D4424D18DF6F7CE74678188DA" : ".."
+>>>>>>> 552c40cf331cc137ace1fbcd7270507beba825c7
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "ZRAlertController",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -19,12 +33,20 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/VictorZhang2014\/ZRAlertController.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+<<<<<<< HEAD
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "248B4936B00367BD0EF92085DFA5EA810BB7F585"
+=======
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C6384DFE5314551D4424D18DF6F7CE74678188DA"
+>>>>>>> 552c40cf331cc137ace1fbcd7270507beba825c7
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/VictorZhang2014\/ZRAlertController.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+<<<<<<< HEAD
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C6384DFE5314551D4424D18DF6F7CE74678188DA"
+=======
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DACEB6D13EC1EF678DA16F1FC082B6FFB3CB9D94"
+>>>>>>> 552c40cf331cc137ace1fbcd7270507beba825c7
     }
   ]
 }
